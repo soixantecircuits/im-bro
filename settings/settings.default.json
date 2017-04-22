@@ -1,0 +1,23 @@
+{
+  "service": {
+    "spacebro":{
+      "host": "spacebro.space",
+      "port": 3333,
+      "clientName": "im-bro",
+      "channelName": "im-bro",
+      "inputMessage": "new-media-for-im-bro",
+      "outputMessage": "new-media-from-im-bro"
+    }
+  },
+  "recipe": "recipes/watermark.py",
+  "media": {
+    "meta": {
+      "watermark": {
+        "path": "assets/watermark.png"
+      }
+    }
+  },
+  "folder":{
+    "output": "/tmp/im-bro"
+  }
+}
